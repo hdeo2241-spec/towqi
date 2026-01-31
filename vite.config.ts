@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
       host: '0.0.0.0',
     },
     plugins: [react()],
-    base: '/towqi/',
+    base: '/tq/',
     define: {
       // It is safer to map these to a specific object or prefix
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
